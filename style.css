@@ -1,0 +1,108 @@
+body{
+  background-color: #DFEBF3;
+  color: #555;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#main-header{
+  background-color: black;
+  color: #fff;
+}
+
+#navbar{
+  background-color: coral;
+  color: #fff;
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  padding-right: 25px;
+  font-size: 19px;
+}
+
+#showcase{
+  background-image:url('images/bgc.jpg');
+  background-position:center right;
+  min-height: 400px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#showcase h2{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+  font-style: italic;
+}
+
+#main{
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  background-color: #2A324B;
+  color: #fff;
+}
+
+#sidebar h3 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#main-footer{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 840px){
+    
+    .container{
+        width: 90%;
+    }
+    
+    #main{
+        width: 100%;
+        float: none;
+    }
+    
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
+
